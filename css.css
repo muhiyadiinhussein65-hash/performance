@@ -1,0 +1,610 @@
+tailwind.config= {
+
+    darkMode: "class",
+    theme: {
+        extend: {
+            colors: {
+                "primary-accent": "#FAB440",
+                    "active-element": "#4E47C6",
+                    "dark-text": "#07143F",
+                    "background-light": "#f6f7f8",
+                    "background-dark": "#07143F",
+            }
+
+            ,
+            fontFamily: {
+                "display": ["Plus Jakarta Sans"]
+            }
+
+            ,
+            borderRadius: {
+                "DEFAULT": "0.75rem",
+                    "lg": "1rem",
+                    "xl": "1.5rem",
+                    "full": "9999px"
+            }
+
+            ,
+        }
+
+        ,
+    }
+
+    ,
+}
+
+</>body {
+    min-height: max(884px, 100dvh);
+}
+
+.subject-card {
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.subject-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+.progress-bar {
+    background-color: #4E47C6 !important;
+}
+
+</style><style>body {
+    min-height: max(884px, 100dvh);
+}
+
+<script>tailwind.config= {
+
+    darkMode: "class",
+    theme: {
+        extend: {
+            colors: {
+                "primary": "#137fec",
+                    "background-light": "#f6f7f8",
+                    "background-dark": "#101922",
+            }
+
+            ,
+            fontFamily: {
+                "display": ["Plus Jakarta Sans", "sans-serif"]
+            }
+
+            ,
+            borderRadius: {
+                "DEFAULT": "0.5rem",
+                    "lg": "1rem",
+                    "xl": "1.5rem",
+                    "full": "9999px"
+            }
+
+            ,
+        }
+
+        ,
+    }
+
+    ,
+}
+
+</script><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" /><style>.material-symbols-outlined {
+    font-variation-settings:
+        'FILL' 1,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 24
+}
+
+</style><style>body {
+    min-height: max(884px, 100dvh);
+}
+
+</style><script id="tailwind-config">tailwind.config= {
+
+    darkMode: "class",
+    theme: {
+        extend: {
+            colors: {
+                "primary": "#137fec",
+                    "background-light": "#f6f7f8",
+                    "background-dark": "#101922",
+                    "success-light": "#22c55e",
+                    "success-dark": "#4ade80",
+                    "error-light": "#ef4444",
+                    "error-dark": "#f87171",
+                    "text-light": "#1f2937",
+                    "text-dark": "#e5e7eb",
+                    "subtext-light": "#6b7280",
+                    "subtext-dark": "#9ca3af",
+                    "border-light": "#e5e7eb",
+                    "border-dark": "#374151"
+            }
+
+            ,
+            fontFamily: {
+                "display": ["Plus Jakarta Sans", "Noto Sans", "sans-serif"]
+            }
+
+            ,
+            borderRadius: {
+                "DEFAULT": "0.5rem",
+                    "lg": "1rem",
+                    "xl": "1.5rem",
+                    "full": "9999px"
+            }
+
+            ,
+            boxShadow: {
+                'input': '0 1px 2px 0 rgb(0 0 0 / 0.05)',
+                    'input-focus': '0 0 0 2px #137fec'
+            }
+        }
+
+        ,
+    }
+
+    ,
+}
+
+</script><style>body {
+    min-height: max(884px, 100dvh);
+}
+
+</style><style>body {
+    min-height: max(884px, 100dvh);
+}
+
+</style><script>tailwind.config= {
+
+    darkMode: "class",
+    theme: {
+        extend: {
+            colors: {
+                "primary": "#137fec",
+                    "background-light": "#f6f7f8",
+                    "background-dark": "#101922",
+                    "foreground-light": "#111418",
+                    "foreground-dark": "#f6f7f8",
+                    "card-light": "#ffffff",
+                    "card-dark": "#182431",
+                    "subtle-light": "#617589",
+                    "subtle-dark": "#a0b3c6",
+                    "gold": "#ffc700"
+            }
+
+            ,
+            fontFamily: {
+                "display": ["Plus Jakarta Sans", "sans-serif"]
+            }
+
+            ,
+            borderRadius: {
+                "DEFAULT": "0.5rem",
+                    "lg": "1rem",
+                    "xl": "1.5rem",
+                    "full": "9999px"
+            }
+
+            ,
+        }
+
+        ,
+    }
+
+    ,
+}
+
+</script><style>@keyframes burst {
+    0% {
+        transform: scale(0.5);
+        opacity: 0;
+    }
+
+    50% {
+        transform: scale(1.2);
+        opacity: 1;
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+.animate-burst {
+    animation: burst 0.5s ease-out forwards;
+}
+
+</style><style>body {
+    min-height: max(884px, 100dvh);
+}
+
+</style>
+<style>
+    :root {
+        --primary: #137fec;
+        --background-light: #f6f7f8;
+        --background-dark: #07143F;
+        --blue-vibrant: #4E47C6;
+        --green-vibrant: #28a745;
+        --gold-vibrant: #FAB440;
+    }
+
+    body {
+        font-family: "Plus Jakarta Sans", sans-serif;
+        background-color: var(--background-light);
+        min-height: 100vh;
+    }
+
+    .dark-mode {
+        background-color: var(--background-dark);
+        color: white;
+    }
+
+    .stat-card,
+    .content-card {
+        border-radius: 12px;
+        transition: all 0.3s ease;
+    }
+
+    .stat-card:hover,
+    .content-card:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+
+    .progress {
+        height: 8px;
+        border-radius: 4px;
+    }
+
+    .streak-day {
+        width: 40px;
+        height: 40px;
+    }
+
+    .btn-action {
+        padding: 12px;
+        border-radius: 12px;
+        font-weight: bold;
+    }
+
+    .material-symbols-outlined {
+        font-variation-settings: 'FILL'1, 'wght'400, 'GRAD'0, 'opsz'24;
+    }
+
+    .notification-badge {
+        position: absolute;
+        top: -2px;
+        right: -2px;
+        width: 12px;
+        height: 12px;
+        border-radius: 50%;
+        background-color: #dc3545;
+        border: 2px solid var(--background-light);
+    }
+
+    .dark-mode .notification-badge {
+        border-color: var(--background-dark);
+    }
+
+    @media (max-width: 576px) {
+        .streak-day {
+            width: 36px;
+            height: 36px;
+        }
+
+        .stat-card .material-symbols-outlined {
+            font-size: 24px !important;
+        }
+    }
+    </style>
+    <style>
+    .crown-gold {
+        color: #FFD700;
+    }
+
+    .crown-silver {
+        color: #C0C0C0;
+    }
+
+    .crown-bronze {
+        color: #CD7F32;
+    }
+    </style>
+    <script id="tailwind-config">
+    tailwind.config = {
+        darkMode: "class",
+        theme: {
+            extend: {
+                colors: {
+                    "primary": "#137fec",
+                    "background-light": "#f6f7f8",
+                    "background-dark": "#101922",
+                },
+                fontFamily: {
+                    "display": ["Plus Jakarta Sans"]
+                },
+                borderRadius: {
+                    "DEFAULT": "0.5rem",
+                    "lg": "1rem",
+                    "xl": "1.5rem",
+                    "full": "9999px"
+                },
+            },
+        },
+    }
+    </script>
+    <style>
+    body {
+        min-height: max(884px, 100dvh);
+    }
+    </style>
+    <script>
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          colors: {
+            "primary": "#137fec",
+            "background-light": "#f6f7f8",
+            "background-dark": "#101922",
+            "success": "#22c55e",
+            "error": "#ef4444",
+            "warning": "#f59e0b",
+            "foreground-light": "#1f2937",
+            "foreground-dark": "#f9fafb",
+            "card-light": "#ffffff",
+            "card-dark": "#1f2937",
+            "border-light": "#e5e7eb",
+            "border-dark": "#374151"
+          },
+          fontFamily: {
+            "display": ["Plus Jakarta Sans", "sans-serif"]
+          },
+          borderRadius: {
+            "DEFAULT": "0.75rem",
+            "lg": "1rem",
+            "xl": "1.5rem",
+            "full": "9999px"
+          },
+        },
+      },
+    }
+  </script>
+  <style>
+    .group.selected .option-card {
+      border-color: #137fec;
+      background-color: #137fec1a;
+    }
+
+    .group.correct .correct-answer {
+      border-color: #22c55e !important;
+      background-color: #22c55e1a !important;
+    }
+
+    .group.incorrect .incorrect-answer {
+      border-color: #ef4444;
+      background-color: #ef44441a;
+    }
+
+    .group.incorrect .correct-answer {
+      border-color: #22c55e;
+      background-color: #22c55e1a;
+    }
+  </style>
+  <style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+
+    <script>
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          colors: {
+            "primary": "#137fec",
+            "background-light": "#f6f7f8",
+            "background-dark": "#101922",
+          },
+          fontFamily: {
+            "display": ["Plus Jakarta Sans"]
+          },
+          borderRadius: {
+            "DEFAULT": "0.5rem",
+            "lg": "1rem",
+            "xl": "1.5rem",
+            "full": "9999px"
+          },
+        },
+      },
+    }
+  </script>
+  <style>
+    .form-select {
+      background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 20 20'%3e%3cpath stroke='%236b7280' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='M6 8l4 4 4-4'/%3e%3c/svg%3e");
+      background-position: right 0.5rem center;
+      background-repeat: no-repeat;
+      background-size: 1.5em 1.5em;
+      padding-right: 2.5rem;
+      -webkit-print-color-adjust: exact;
+      print-color-adjust: exact;
+    }
+
+    .dark .form-select {
+      background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 20 20'%3e%3cpath stroke='%23d1d5db' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='M6 8l4 4 4-4'/%3e%3c/svg%3e");
+    }
+
+    .avatar-ring {
+      box-shadow: 0 0 0 4px #f6f7f8;
+    }
+
+    .dark .avatar-ring {
+      box-shadow: 0 0 0 4px #101922;
+    }
+  </style>
+  <style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+
+     <script>
+    tailwind.config = {
+        darkMode: "class",
+        theme: {
+            extend: {
+                colors: {
+                    "primary": "#137fec",
+                    "background-light": "#f6f7f8",
+                    "background-dark": "#101922",
+                },
+                fontFamily: {
+                    "display": ["Plus Jakarta Sans"]
+                },
+                borderRadius: {
+                    "DEFAULT": "0.5rem",
+                    "lg": "1rem",
+                    "xl": "1.5rem",
+                    "full": "9999px"
+                },
+            },
+        },
+    }
+    </script>
+    <style>
+    .font-display {
+        font-family: 'Plus Jakarta Sans', sans-serif;
+    }
+    </style>
+    <style>
+    body {
+        min-height: max(884px, 100dvh);
+    }
+    </style>
+    <script>
+    tailwind.config = {
+        darkMode: "class",
+        theme: {
+            extend: {
+                colors: {
+                    "primary-accent": "#FAB440",
+                    "active-element": "#4E47C6",
+                    "dark-text": "#07143F",
+                    "background-light": "#f6f7f8",
+                    "background-dark": "#07143F",
+                },
+                fontFamily: {
+                    "display": ["Plus Jakarta Sans"]
+                },
+                borderRadius: {
+                    "DEFAULT": "0.75rem",
+                    "lg": "1rem",
+                    "xl": "1.5rem",
+                    "full": "9999px"
+                },
+            },
+        },
+    }
+    </script>
+    <style>
+    body {
+        min-height: max(884px, 100dvh);
+    }
+
+    .subject-card {
+        transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    }
+
+    .subject-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    }
+
+    .progress-bar {
+        background-color: #4E47C6 !important;
+    }
+    </style>
+    <style>
+    body {
+        min-height: max(884px, 100dvh);
+    }
+    </style>
+     <script id="tailwind-config">
+    tailwind.config = {
+        darkMode: "class",
+        theme: {
+            extend: {
+                colors: {
+                    primary: "#137fec",
+                    "background-light": "#f6f7f8",
+                    "background-dark": "#101922",
+                },
+                fontFamily: {
+                    display: ["Plus Jakarta Sans"],
+                },
+                borderRadius: {
+                    DEFAULT: "0.5rem",
+                    lg: "1rem",
+                    xl: "1.5rem",
+                    full: "9999px"
+                },
+            },
+        },
+    };
+    </script>
+    <style>
+    body {
+        min-height: max(884px, 100dvh);
+    }
+    </style>
+        <script>
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#137fec",
+                        "background-light": "#f6f7f8",
+                        "background-dark": "#101922",
+                        "success": "#22c55e",
+                        "error": "#ef4444",
+                        "warning": "#f59e0b"
+                    },
+                    fontFamily: {
+                        "display": ["Plus Jakarta Sans", "sans-serif"]
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.5rem",
+                        "lg": "1rem",
+                        "xl": "1.5rem",
+                        "full": "9999px"
+                    },
+                },
+            },
+        }
+    </script>
+    <style>
+        .xp-gain {
+            animation: slide-up-fade-out 1s forwards;
+        }
+
+        @keyframes slide-up-fade-out {
+            0% {
+                transform: translateY(0);
+                opacity: 1;
+            }
+
+            100% {
+                transform: translateY(-20px);
+                opacity: 0;
+            }
+        }
+    </style>
+    <style>
+        body {
+            min-height: max(884px, 100dvh);
+        }
+    </style>
